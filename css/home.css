@@ -1,0 +1,288 @@
+@font-face {
+    font-family:  Ibarra Real Nova;
+    src: url(../font/IbarraRealNova-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family:  Ibarra Real Nova;
+    src: url(../font/IbarraRealNova-Medium.woff);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family:  Ibarra Real Nova;
+    src: url(../font/IbarraRealNova-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Public Sans;
+    src: url(../font/PublicSans-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Public Sans;
+    src: url(../font/PublicSans-Medium.woff);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: Public Sans;
+    src: url(../font/PublicSans-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN CONTAINER */
+.container{
+    width: 1227px; /*80%*/
+    margin: 0 auto;
+} 
+
+/* TEXT STYLES */
+.bigtext{
+    font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 50px;
+line-height: 60px;
+letter-spacing: -0.446429px;
+color: #33323D;
+}
+.smallertext{
+    font-family: 'Ibarra Real Nova';
+    font-style: normal;
+font-weight: 700;
+font-size: 45px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #33323D;
+margin-bottom: 30px;
+}
+.ptext{
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #33323D;
+    margin-bottom: 30px;
+}
+
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.links a{
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+font-size: 16px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #33323D;
+}
+.active{
+    color: #5FB4A2 !important;
+}
+.links a:hover{
+    transform: scale(1.1);
+    transition: ease 0.7s;
+    color: #5FB4A2;
+}
+
+
+/* BANNER 1 */
+.banner1{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 700px;
+    background-image: url(../img/imac.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 150px;
+}
+.banner1content{
+    width: 445px;
+    height: 357px;
+    background-color: #ffffff;
+}
+.forbtn{
+    display: flex;
+    align-items: end;
+    width: 100%;
+    height: 117px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    border: none;
+    width: 300px;
+    height: 70px;
+    background-color:  #203A4C;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.btnlogo img{
+    width: 30px;
+    height: 30px;
+}
+.btnlogo{
+    margin-right: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70px;
+    height: 70px;
+    background: #1a3141;
+}
+.btn:hover{
+    transform: scale(1.1);
+    transition: ease 0.7s;
+    box-shadow: #6547bad8 -5px 5px, #6b50b6b1 -10px 10px, #826dbc7c -15px 15px, #9687bf6e -20px 20px, #aaa0c556 -25px 25px;
+}
+
+/* MAIN PART */
+main{
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-bottom: 150px;
+}
+.content{
+    margin-left: 100px;
+    width: 40%;
+    height: 100%;
+}
+.content hr{
+    margin-bottom: 30px;
+}
+.whitebtn{
+    border: 1px solid #33323D;
+    width: 250px;
+    height: 70px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    background-color: #fff;
+}
+.hr2{
+    margin-top: 33px;
+}
+.whitebtn:hover{
+    border: 1px solid rgb(132, 157, 249);
+    background-color:  #203A4C;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    transition: ease 0.7s;
+    box-shadow: #6547bad8 -5px 5px, #6b50b6b1 -10px 10px, #826dbc7c -15px 15px, #9687bf6e -20px 20px, #aaa0c556 -25px 25px;
+}
+
+/* CONTACT LINK */
+.contactlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+}
+.textpart{
+    width: 30%;
+}
+.hrpart{
+    width: 40%;
+}
+.btnpart{
+    width: 20%;
+}
+.contact{
+    width:200px;
+    height: 60px;
+}
+
+
+/* FOOTER */
+footer{
+    width: 1519px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: #33323D;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.flogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+    height: 100%;
+}
+.flinks a{
+    text-decoration: none;
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.flinks a:hover{
+    transform: scale(1.1);
+    transition: ease 0.7s;
+    color: #5FB4A2;
+}

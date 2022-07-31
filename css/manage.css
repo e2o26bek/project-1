@@ -1,0 +1,351 @@
+@font-face {
+    font-family:  Ibarra Real Nova;
+    src: url(../font/IbarraRealNova-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family:  Ibarra Real Nova;
+    src: url(../font/IbarraRealNova-Medium.woff);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family:  Ibarra Real Nova;
+    src: url(../font/IbarraRealNova-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: Public Sans;
+    src: url(../font/PublicSans-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Public Sans;
+    src: url(../font/PublicSans-Medium.woff);
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: Public Sans;
+    src: url(../font/PublicSans-Regular.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* MAIN CONTAINER */
+.container{
+    width: 1227px; /*80%*/
+    margin: 0 auto;
+} 
+
+
+/* HEADER */
+header{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+}
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+}
+.links a{
+    text-decoration: none;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+font-size: 16px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #33323D;
+}
+.active{
+    color: #5FB4A2 !important;
+}
+.links a:hover{
+    transform: scale(1.1);
+    transition: ease 0.7s;
+    color: #5FB4A2;
+}
+
+
+/* FOOTER */
+footer{
+    width: 1519px;
+    margin: 0 auto;
+    height: 80px;
+    background-color: #33323D;
+}
+.footer{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flinks{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+}
+.flogos{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 10%;
+    height: 100%;
+}
+.flinks a{
+    text-decoration: none;
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 14px;
+letter-spacing: 2px;
+text-transform: uppercase;
+color: #FFFFFF;
+}
+.flinks a:hover{
+    transform: scale(1.1);
+    transition: ease 0.7s;
+    color: #5FB4A2;
+}
+
+
+/* CONTACT LINK */
+.contactlink{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    margin-bottom: 100px;
+}
+.textpart{
+    width: 30%;
+}
+.hrpart{
+    width: 40%;
+}
+.btnpart{
+    width: 20%;
+}
+.contact{
+    width:200px;
+    height: 60px;
+}
+.whitebtn{
+    border: 1px solid #33323D;
+    width: 250px;
+    height: 70px;
+    font-family: 'Public Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #33323D;
+    background-color: #fff;
+}
+.whitebtn:hover{
+    border: 1px solid rgb(132, 157, 249);
+    background-color:  #203A4C;
+    color: #FFFFFF;
+    transform: scale(1.1);
+    transition: ease 0.7s;
+    box-shadow: #6547bad8 -5px 5px, #6b50b6b1 -10px 10px, #826dbc7c -15px 15px, #9687bf6e -20px 20px, #aaa0c556 -25px 25px;
+}
+
+
+/* TEXT STYLES */
+.smallertext{
+    font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 42px;
+letter-spacing: -0.357143px;
+color: #33323D;
+margin-bottom: 30px;
+margin-top: 50px;
+}
+.ptext{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 30px;
+color: #33323D;
+margin-top: 36px;
+margin-bottom: 30px;
+}
+.greenlink{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+color: #5FB4A2;
+text-decoration: none;
+}
+.smaller{
+    font-family: 'Ibarra Real Nova';
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 42px;
+letter-spacing: -0.285714px;
+color: #33323D;
+margin-bottom: 40px;
+}
+.wrap-p{
+    font-family: 'Public Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 30px;
+text-align: right;
+color: #33323D;
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+
+/* BANNER 1 */
+.banner1{
+    width: 100%;
+    height: 580px;
+    background-image: url(../img/mask.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 100px;
+}
+
+
+/* MAIN */
+main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 1250px;
+    margin-bottom: 100px; 
+}
+.mpart1{
+    width: 400px;
+    height: 500px;
+}
+.mpart2{
+    width: 635px;
+    height: 100%;
+}
+.visit{
+    width: 200px;
+    height: 50px;
+    margin-top: 30px;
+}
+.bottom{
+    margin-top: 50px;
+}
+.forimg{
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #fff;
+}
+.forimg img{
+    max-width: 700px;
+    max-height: 400px;
+}
+
+
+/* WRAPPER */
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 130px;
+    margin-bottom: 100px;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 613px;
+    height: 128.5px;
+    background-color: #fff;
+}
+.next{
+    display: flex;
+    width: 250px;
+    height: 80px;
+    background-color: #FFFFFF;
+    border: 1px dashed #33323D;
+}
+.next:hover{
+    transform: scale(1.1);
+    transition: ease 0.7s;
+    border: 1px solid #33323D;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.contentpart{
+    display: flex;
+    align-items: center;
+    width: 70%;
+    height: 100%;
+}
+.logopart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100%;
+}
+.logopart a i{
+    font-size: 30px;
+    color: #33323D;
+}
+.wrap-text a{
+    text-decoration: none;
+    margin-bottom: 30px;
+}
+.wrap-text{
+    width: 100%;
+    height: 80px;
+    text-align: end;
+}
+.logopart a i:hover{
+    transform: scale(1.5);
+    transition: ease 0.7s;
+}
+.wrback{
+    justify-content: start;
+}
+.back{
+    text-align: start;
+}
